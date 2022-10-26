@@ -111,9 +111,9 @@ h1{
 }
 @media screen and (max-width:600px) {
     #top-img{
-        right: 20px;
-        top: 25px;
-        width: 60px;
+        right: 10px;
+        top: 20px;
+        width: 50px;
     }
     .profile-des p{
         text-align: center;
@@ -122,8 +122,8 @@ h1{
     
     }
     #bottom-img{
-        left: 30px;
-        width: 60px;
+        left: 20px;
+        width: 50px;
     }
     p{
         font-size: 0.8rem;
@@ -193,8 +193,12 @@ h2{
 }
 @media  screen and (max-width:600px) {
     h2{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
+    .about{
+        padding: 10px 5px; 
+    }
+
     .sec{
         flex-direction: column;
         justify-content: center;
@@ -202,6 +206,8 @@ h2{
     }
     .about-des{
         width: 100%;
+        padding: 15px;
+        margin: 5px;
     }
     .about-des p{
         text-align: center;
@@ -410,6 +416,9 @@ li {
     .experience {
         flex-direction: column;
     }
+    .experience .work .education .skills{
+        padding: 10px;
+    }
     .card-icon img{
         padding: 5px ;
         border-radius: 30%;
@@ -494,7 +503,7 @@ li {
 
 @media screen and (max-width:600px) {
     .achievement-container{
-        padding: 5px;;
+        padding: 15px;
     }
     .contact input,textarea{
         padding: 3px;
@@ -504,7 +513,7 @@ li {
         width: auto;
         margin: 5px;
         padding: 5px;
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .media-button .btn{
         padding: 5px;
